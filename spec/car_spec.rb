@@ -1,4 +1,4 @@
-require './car.rb'
+require './lib/car.rb'
 
 describe Car do
 
