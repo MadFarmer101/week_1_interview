@@ -10,7 +10,7 @@ describe Car do
     end
 
     it 'Checks if the car has a driver' do
-        expect(subject.driver).to be_truthy
+        expect(subject.driver).not_to eq nil
     end
 
 end

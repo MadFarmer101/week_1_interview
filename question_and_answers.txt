@@ -1,0 +1,53 @@
+###Question 1 - Variables###
+
+1. Create a variable and set it equal to 'variable'.
+    variable = 'variable'
+
+2. What are some different data types? Write a few examples.
+    Strings = 'string'
+    Integers = 1
+    Floats = 3.14
+    Boolean = true/false
+    Symbol = :symbol
+    Arrays = []
+    Hashes = {key: value} 
+
+
+###Question 2 - Hashes and Arrays###
+
+1. Open irb. Create two hashes, one for each car, with the following attributes: wheels, max_speed, color
+    car1 = {wheels: 4, max_speed: 200, color: 'red'}
+    car2 = {wheels: 3, max_speed: 50, color: 'yellow'}
+
+2. Create an array that contains both cars.
+    cars = [car1, car2]
+
+3. How do we find the seconds car's color?
+    cars[1][:color]
+
+
+###Question 3 - Classes and Methods###
+
+1. Create a new folder called ​cars​ and inside of that folder, create a file called ​car.rb​ with:
+- a class Car 
+- a method to "paint" a car a new color. Open irb. Load your 'car.rb' file. Create aninstance of a Car and change its color.
+    
+    Answer is on car.rb file
+
+
+###Question 4 - Rspec###
+1. How do you initialize ​rspec​ in a folder? Do it in our cars folder.
+    Did it in cars folder
+
+2. We would ordinarily have written our tests first, then written code to make them pass.Why?
+    - It gives a code a nice directions to follow. If we're trying to write a method to pass a test on a certain feature, we are only focused on that.
+    - By writting test you can better have a felling of UI with the code.
+    - It makes a code look nice and easily understandable.
+    - We know that code works.
+    - You can easily refactor the code.
+
+3. Create a unit test for our ​Car​ class to test our "painting" method.
+    Created it in a car_spec.rb file.
+
+4. A car should have a driver. Create an ​instance_double​​Driver​. Write a second test forthis and make it pass.
+    Created it in car_spec.rb and car.rb files.
